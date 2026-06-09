@@ -1,13 +1,13 @@
 <div align="center">
   
-# 🏠 Real Estate Price Predictor
+# 💳 Credit Risk Assessment
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)]()
 
-*Predict the price of a house based on features like square footage, number of bedrooms, and location.*
+*Assess creditworthiness and default probability of loan applicants using XGBoost.*
 
 </div>
 
@@ -24,25 +24,26 @@
 ---
 
 ## 🔎 Project Overview
-Predict the price of a house based on features like square footage, number of bedrooms, and location.
+Assess creditworthiness and default probability of loan applicants using XGBoost.
 
-This project serves as an end-to-end implementation of applying **Linear Regression** to a real-world dataset to extract insights and build a predictive model.
+This project serves as an end-to-end implementation of applying **XGBoost Classifier** to financial profiles to build a highly optimized gradient-boosted decision tree pipeline.
 
 ## 🎯 Objective
-The primary goal of this project is to build a robust Machine Learning pipeline that effectively addresses the problem statement using **Linear Regression**. This involves data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and evaluation.
+The primary goal of this project is to build a robust Machine Learning pipeline that effectively addresses the problem statement using **XGBoost Classifier**. This involves data preprocessing, addressing class imbalances (using SMOTE or class weights), training tree boosting models, tuning parameters (learning rate, tree depth, gamma), and evaluation.
 
 ## 🧠 Algorithm Used
-- **Linear Regression**
+- **XGBoost Classifier**
 
 ## 📊 Dataset
 *(Placeholder: Update this section with a link to your dataset, or a brief description of the features once you begin your analysis.)*
+*Note: The German Credit dataset or home credit default dataset is recommended for this classification task.*
 
 ## 🚀 Installation & Usage
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Aayush-Deshpande/Machine-Learning-Projects.git
-   cd Machine-Learning-Projects/Real_Estate_Price_Predictor
+   cd Machine-Learning-Projects/Credit_Risk_Assessment
    ```
 
 2. **Install the required dependencies:**
@@ -57,7 +58,7 @@ The primary goal of this project is to build a robust Machine Learning pipeline 
    ```
 
 ## 📈 Results
-*(Placeholder: Add your model's accuracy, precision, recall, confusion matrix, or any other relevant metrics here after training!)*
+*(Placeholder: Add your model's accuracy, precision, recall, F1 score, ROC-AUC score, or confusion matrix here after training!)*
 
 ---
 <div align="center">
